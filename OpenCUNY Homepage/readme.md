@@ -7,7 +7,7 @@ This is the simple, static landing page for OpenCUNY.org, a WordPress MU project
 ## Files
 
 This theme includes the two files requied by WordPress:
-	- index.php (blank because front-page.php is used instead)
+	* index.php (blank because front-page.php is used instead)
 	- style.css (all CSS styling rules)
 
 As well as additional files:
