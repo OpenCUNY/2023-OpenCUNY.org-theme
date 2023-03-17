@@ -16,7 +16,7 @@ A WordPRess theme for OpenCUNY.org, a digital medium funded by the DGSC, The Gra
 Style sheet is (generally) organized so that global styles are the top and page-specific tweaks are at the bottom. 
 
 1. Keep the HTML readable by creating CSS class names that describe PURPOSE rather than VISUAL EFFECT when possible 
-  - ```
+```
 <img class="coordinator-pic" src="/cornelius.png">
 
 /* is preferred to */
