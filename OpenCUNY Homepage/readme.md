@@ -37,12 +37,7 @@ Style sheet is (generally) organized so that global styles are the top and page-
 <h1 class="site-title"><a href="<?php echo get_home_url(); ?>" alt="Homepage link" id="site-title">Open*CUNY</a></h1>
 ```
 ### Screen size
-```
-/* Most of the content on the site
-   is controlled by*/
-   
-    .body-conent {}
-```
+Most of the content on the site is controlled by `.body-conent {}`.
 The width of `.body-content {}` is maximum 800px and 100% of the window if smaller.
 
 ### Available fonts
