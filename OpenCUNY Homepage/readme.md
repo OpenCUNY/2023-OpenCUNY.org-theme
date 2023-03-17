@@ -103,14 +103,14 @@ As well as additional files:
     
  ### To Do!
  - [X] code style.css to load in Dashboard > Themes
- - [X]Theme screenshot
+ - [X] Theme screenshot
  - [X] header.php loads
  - [X] footer.php loads
  - [X] 
- - [] Contact form
- - [] What can you do with OpenCUNY? (Yellow accordion)
- - [] OpenCUNY Board page (combine board/coordinators)
- - [] Remove blue footer (to site-wide footer) 
+ - [ ] Contact form
+ - [ ] What can you do with OpenCUNY? (Yellow accordion)
+ - [ ] OpenCUNY Board page (combine board/coordinators)
+ - [ ] Remove blue footer (to site-wide footer) 
 
 ## Thanks
 - https://youtu.be/-h7gOJbIpmo
