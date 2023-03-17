@@ -32,7 +32,7 @@ We've tried to make the code and documentation as human-readable, and instructiv
   - i.e. em, ex, ch, rem, vw, vh, vmin, vmax, %
   - assume 1rem = 16px (on nearly all browsers)
 
-3. Links to images in the theme folder need to use the php in the <img src=""> of the following example
+3. Links to images in the theme folder need to use the php in the `<img src="">` of the following example
 ```
  <a href="https://cunydsc.org">
   <img src="<?php echo esc_url( get_template_directory_uri() . '/images/DGSC-logo.png' ); ?>" class="dgsc-logo">
