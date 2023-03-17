@@ -15,17 +15,15 @@ A WordPRess theme for OpenCUNY.org, a digital medium funded by the DGSC, The Gra
 
 Style sheet is (generally) organized so that global styles are the top and page-specific tweaks are at the bottom. 
 
-1.) Keep the HTML readable by creating CSS class names that describe PURPOSE rather than VISUAL EFFECT when possible 
-(e.g. 
-```
+1. Keep the HTML readable by creating CSS class names that describe PURPOSE rather than VISUAL EFFECT when possible 
+  - ```
 <img class="coordinator-pic" src="/cornelius.png">
 
 /* is preferred to */
   
 <img class="small left-align double-spaced" src="/cornelius.png>
 ```
- 
-2.) Use relative length units, rem preferred (i.e. em, ex, ch, rem, vw, vh, vmin, vmax, %); assume 1rem=16px
+2. Use relative length units, rem preferred (i.e. em, ex, ch, rem, vw, vh, vmin, vmax, %); assume 1rem=16px
 3.) Links to images in the theme folder need to use the 
 4.) Keep the theme flexible by using get_home_url() for site-wide links. 
 -- Screen size --
