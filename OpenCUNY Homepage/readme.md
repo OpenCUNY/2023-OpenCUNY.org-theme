@@ -17,11 +17,13 @@ Style sheet is (generally) organized so that global styles are the top and page-
 
 1.) Keep the HTML readable by creating CSS class names that describe PURPOSE rather than VISUAL EFFECT when possible 
 (e.g. 
-```<img class="coordinator-pic" src="/cornelius.png">
+```
+<img class="coordinator-pic" src="/cornelius.png">
 
-  /* is preferred to */
+/* is preferred to */
   
- <img class="small left-align double-spaced" src="/cornelius.png> ```
+<img class="small left-align double-spaced" src="/cornelius.png>
+```
  
 2.) Use relative length units, rem preferred (i.e. em, ex, ch, rem, vw, vh, vmin, vmax, %); assume 1rem=16px
 3.) Links to images in the theme folder need to use the 
