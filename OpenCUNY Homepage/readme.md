@@ -2,20 +2,24 @@
 
 ## Project Description
 
-A WordPRess theme for OpenCUNY.org, a digital medium funded by the DGSC, The Graduate Center, CUNY. 
+A WordPRess theme for OpenCUNY.org, a digital medium funded by the DGSC, The Graduate Center, CUNY.
+
+We've tried to make the code and documentation as human-readable, and instructive as possible, so that others can take this code and experiment, learn, have fun, and create. 
 
 ## Sections
-- [Quick Reference: CSS/HTML](#quick-reference-coding)
-- Quick Reference: In the Dashboard 
-- How the Theme Works
-  -File Structure
+- 
+- [Quick Reference: CSS/HTML](#quick-reference-for-coding)
+  - [CSS](#CSS)
+- [Quick Reference for Dashboard](#quick-reference-for-dashboard) 
+- [How the Theme Works](#how-the-theme-works)
+  -[File Structure](#file-structure)
   
-## Quick Reference Coding
-**Helpful reference if you're editing or using the style sheet**
+## Quick Reference for Coding
 
-Style sheet is (generally) organized so that global styles are the top and page-specific tweaks are at the bottom. 
+### CSS
+1, Style sheet is (generally) organized so that global styles are the top and page-specific tweaks are at the bottom. 
 
-1. Keep the HTML readable by creating CSS class names that describe PURPOSE rather than VISUAL EFFECT when possible 
+2. Keep the HTML readable by creating CSS class names that describe PURPOSE rather than VISUAL EFFECT when possible 
 ```
 <img class="coordinator-pic" src="/cornelius.png">
 
@@ -23,9 +27,10 @@ Style sheet is (generally) organized so that global styles are the top and page-
   
 <img class="small left-align double-spaced" src="/cornelius.png>
 ```
-2. Use relative length units, rem preferred 
+3. Use relative length units, rem preferred 
   - i.e. em, ex, ch, rem, vw, vh, vmin, vmax, %
   - assume 1rem = 16px (on nearly all browsers)
+
 3. Links to images in the theme folder need to use the php in the <img src=""> of the following example
 ```
  <a href="https://cunydsc.org">
@@ -41,11 +46,11 @@ Most of the content on the site is controlled by `.body-conent {}`.
 The width of `.body-content {}` is maximum 800px and 100% of the window if smaller.
 
 ### Available fonts
-Bungee Inline is used for the .site-title
-Roboto (400) is the default font
-Roboto (900) is headers and `<b> <strong> <em>` tags
-Bungee Shade (so far unused)
-Roboto (so far other weights unused)
+- Bungee Inline is used for the .site-title
+- Roboto (400) is the default font
+- Roboto (900) is headers and `<b> <strong> <em>` tags
+- Bungee Shade (so far unused)
+- Roboto (so far other weights unused)
 
 View on [Google fonts](https://fonts.google.com/share?selection.family=Bungee%20Inline%7CBungee%20Shade%7CRoboto:ital,wght@0,100;0,400;0,700;0,900;1,100;1,400;1,700;1,900)
 
@@ -59,7 +64,15 @@ View on [Google fonts](https://fonts.google.com/share?selection.family=Bungee%20
 - Yellow:`#feee75`
 - Light Yellow:`#faf8eb`
  
-## Files
+
+## Quick Reference for the Dashboard
+Dashboard > Theme > Appearence
+- Site title displays in the meta, and the copyright footer block
+- Menu Location > Footer Menu displays in the footer block
+- Site tagline is meta only
+- Header menu is so far unused
+
+## File Structure
 
 This theme includes the two files requied by WordPress:
 - index.php (blank because front-page.php is used instead)
