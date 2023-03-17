@@ -10,6 +10,7 @@ We've tried to make the code and documentation as human-readable, and instructiv
 - 
 - [Quick Reference: CSS/HTML](#quick-reference-for-coding)
   - [CSS](#CSS)
+  - [HTML](#HTML)
 - [Quick Reference for Dashboard](#quick-reference-for-dashboard) 
 - [How the Theme Works](#how-the-theme-works)
   -[File Structure](#file-structure)
