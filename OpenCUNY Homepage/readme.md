@@ -23,20 +23,33 @@ Style sheet is (generally) organized so that global styles are the top and page-
   
 <img class="small left-align double-spaced" src="/cornelius.png>
 ```
-2. Use relative length units, rem preferred (i.e. em, ex, ch, rem, vw, vh, vmin, vmax, %); assume 1rem=16px
-3.) Links to images in the theme folder need to use the 
-4.) Keep the theme flexible by using get_home_url() for site-wide links. 
--- Screen size --
+2. Use relative length units, rem preferred 
+  - i.e. em, ex, ch, rem, vw, vh, vmin, vmax, %
+  - assume 1rem = 16px (on nearly all browsers)
+3. Links to images in the theme folder need to use the php in the <img src=""> of the following example
+```
+ <a href="https://cunydsc.org">
+  <img src="<?php echo esc_url( get_template_directory_uri() . '/images/DGSC-logo.png' ); ?>" class="dgsc-logo">
+ </a>
+```
+4. Keep the theme flexible by using get_home_url() for site-wide links, like the following example
+```
+<h1 class="site-title"><a href="<?php echo get_home_url(); ?>" alt="Homepage link" id="site-title">Open*CUNY</a></h1>
+```
+### Screen size
 The .body-content <div> controls the width of most theme content and its size is dependent on the size of the window in which the site is displayed.
 .body-content is set to 100% on viewports smaller than 800px and max-width 700px on larger screens.
--- Available fonts--
+
+  ### Available fonts
 Bungee Inline is used for the .site-title
 Roboto (400) is the default font
 Roboto (900) is headers and <b> <strong> <em> tags
 Bungee Shade (so far unused)
 Roboto (so far other weights unused)
-View on Google fonts: https://fonts.google.com/share?selection.family=Bungee%20Inline%7CBungee%20Shade%7CRoboto:ital,wght@0,100;0,400;0,700;0,900;1,100;1,400;1,700;1,900
--- Colors --
+
+View on Google fonts[https://fonts.google.com/share?selection.family=Bungee%20Inline%7CBungee%20Shade%7CRoboto:ital,wght@0,100;0,400;0,700;0,900;1,100;1,400;1,700;1,900]
+  
+### Colors
 Dark Blue:    #2682e9
 Light Blue:   #ebf2fa
 Pink:         #ff7c7d
