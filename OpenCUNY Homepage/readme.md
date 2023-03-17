@@ -43,7 +43,7 @@ The width of `.body-content {}` is maximum 800px and 100% of the window if small
 ### Available fonts
 Bungee Inline is used for the .site-title
 Roboto (400) is the default font
-Roboto (900) is headers and <b> <strong> <em> tags
+Roboto (900) is headers and `<b> <strong> <em>` tags
 Bungee Shade (so far unused)
 Roboto (so far other weights unused)
 
