@@ -50,14 +50,14 @@ Roboto (so far other weights unused)
 View on [Google fonts](https://fonts.google.com/share?selection.family=Bungee%20Inline%7CBungee%20Shade%7CRoboto:ital,wght@0,100;0,400;0,700;0,900;1,100;1,400;1,700;1,900)
 
 ### Colors
-Dark Blue:    `#2682e9`
-Light Blue:   `#ebf2fa`
-Pink:         `#ff7c7d`
-Light Pink:   `#faeded`
-Green:        `#57f36e`
-Light Green:  `#ebfaed`
-Yellow:       `#feee75`
-Light Yellow: `#faf8eb`
+Dark Blue:`#2682e9`
+Light Blue:`#ebf2fa`
+Pink:`#ff7c7d`
+Light Pink:`#faeded`
+Green:`#57f36e`
+Light Green:`#ebfaed`
+Yellow:`#feee75`
+Light Yellow:`#faf8eb`
  
 ## Files
 
