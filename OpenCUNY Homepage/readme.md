@@ -5,12 +5,12 @@
 A WordPRess theme for OpenCUNY.org, a digital medium funded by the DGSC, The Graduate Center, CUNY. 
 
 ## Sections
-- [Quick Reference: CSS/HTML](##quick-reference:-coding)
+- [Quick Reference: CSS/HTML](#quick-reference-coding)
 - Quick Reference: In the Dashboard 
 - How the Theme Works
   -File Structure
   
-## Quick Reference: Coding
+## Quick Reference Coding
 **Helpful reference if you're editing or using the style sheet**
 
 Style sheet is (generally) organized so that global styles are the top and page-specific tweaks are at the bottom. 
