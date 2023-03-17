@@ -13,7 +13,7 @@ We've tried to make the code and documentation as human-readable, and instructiv
   - [HTML](#HTML)
 - [Quick Reference for Dashboard](#quick-reference-for-dashboard) 
 - [How the Theme Works](#how-the-theme-works)
-  -[File Structure](#file-structure)
+  - [File Structure](#file-structure)
   
 ## Quick Reference for Coding
 
@@ -73,7 +73,8 @@ Dashboard > Theme > Appearence
 - Site tagline is meta only
 - Header menu is so far unused
 
-## File Structure
+## How the Theme Works
+### File Structure
 
 This theme includes the two files requied by WordPress:
 - index.php (blank because front-page.php is used instead)
@@ -92,20 +93,24 @@ As well as additional files:
   - readme.txt (this file)
   - screenshot.png (used by WordPress theme selector)
  - assets
-  - images (template-required images)
   - .js (for javascripts that need to be loaded; currently used for accordion)
+  - images (template-required images)
   - template-parts (sections of HTML inserted into other pages with get_template_part())
     - content.php (how most content is shown between header and footer)
     - content-login.php (the login form, used on the frontpage)
     - content-welcome.php (the welcome message for logged in users, used on the frontpage)
     - content-archive.php (lists the posts/pages in a category/tag with excerpts in date order, used on archive)
     
-    
-  ## What Works!
-  - 
-  
-  ## What still needs to be done. . . 
-  - 
+ ### To Do!
+ - [X] code style.css to load in Dashboard > Themes
+ - [X]Theme screenshot
+ - [X] header.php loads
+ - [X] footer.php loads
+ - [X] 
+ - [] Contact form
+ - [] What can you do with OpenCUNY? (Yellow accordion)
+ - [] OpenCUNY Board page (combine board/coordinators)
+ - [] Remove blue footer (to site-wide footer) 
 
 ## Thanks
 - https://youtu.be/-h7gOJbIpmo
