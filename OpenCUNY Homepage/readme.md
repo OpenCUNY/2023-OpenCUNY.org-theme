@@ -4,6 +4,49 @@
 
 A WordPRess theme for OpenCUNY.org, a digital medium funded by the DGSC, The Graduate Center, CUNY. 
 
+## Sections
+- Quick Reference: CSS/HTML
+- Quick Reference: In the Dashboard 
+- How the Theme Works
+  -File Structure
+  
+## Quick Reference: Coding
+**Helpful reference if you're editing or using the style sheet**
+
+Style sheet is (generally) organized so that global styles are the top and page-specific tweaks are at the bottom. 
+
+1.) Keep the HTML readable by creating CSS class names that describe PURPOSE rather than VISUAL EFFECT when possible 
+(e.g. 
+|<img class="coordinator-pic" src="/cornelius.png">
+
+  /* is preferred to */
+  
+ <img class="small left-align double-spaced" src="/cornelius.png> |
+ 
+2.) Use relative length units, rem preferred (i.e. em, ex, ch, rem, vw, vh, vmin, vmax, %); assume 1rem=16px
+3.) Links to images in the theme folder need to use the 
+4.) Keep the theme flexible by using get_home_url() for site-wide links. 
+-- Screen size --
+The .body-content <div> controls the width of most theme content and its size is dependent on the size of the window in which the site is displayed.
+.body-content is set to 100% on viewports smaller than 800px and max-width 700px on larger screens.
+-- Available fonts--
+Bungee Inline is used for the .site-title
+Roboto (400) is the default font
+Roboto (900) is headers and <b> <strong> <em> tags
+Bungee Shade (so far unused)
+Roboto (so far other weights unused)
+View on Google fonts: https://fonts.google.com/share?selection.family=Bungee%20Inline%7CBungee%20Shade%7CRoboto:ital,wght@0,100;0,400;0,700;0,900;1,100;1,400;1,700;1,900
+-- Colors --
+Dark Blue:    #2682e9
+Light Blue:   #ebf2fa
+Pink:         #ff7c7d
+Light Pink:   #faeded
+Green:        #57f36e
+Light Green:  #ebfaed
+Yellow:       #feee75
+Light Yellow: #faf8eb
+ 
+  
 ## Files
 
 This theme includes the two files requied by WordPress:
