@@ -37,13 +37,13 @@ We've tried to make the code and documentation as human-readable, and instructiv
   <img src="<?php echo esc_url( get_template_directory_uri() . '/images/DGSC-logo.png' ); ?>" class="dgsc-logo">
  </a>
 ```
-4. Keep the theme flexible by using get_home_url() for site-wide links, like the following example
+### HTML
+1. Keep the theme flexible by using get_home_url() for site-wide links, like the following example
 ```
 <h1 class="site-title"><a href="<?php echo get_home_url(); ?>" alt="Homepage link" id="site-title">Open*CUNY</a></h1>
 ```
-### Screen size
-Most of the content on the site is controlled by `.body-conent {}`.
-The width of `.body-content {}` is maximum 800px and 100% of the window if smaller.
+2. Most of the content on the site is controlled by `.body-conent {}`.
+The width of `.body-content {}` is maximum 800px and 100% of the window if smaller than 800px.
 
 ### Available fonts
 - Bungee Inline is used for the .site-title
