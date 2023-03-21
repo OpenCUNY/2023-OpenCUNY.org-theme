@@ -88,7 +88,7 @@
 
 			<p>The quickest way to get in touch with someone is to email <a href="mailto:info@opencuny.org">info@opencuny.org</a>, but you can also email any of the coordinators individually (our email addresses are listed below).</p>
 			
-			<p>We also hold in-person office hours in Room 5396 of the Graduate Center every Wednesday from 3:00-5:00pm.
+			<p>We also hold in-person office hours in Room 5396 at the Graduate Center, CUNY, every Wednesday from 3:00-5:00pm.</p>
 
 			<h3>Coordinators</h3>
 
