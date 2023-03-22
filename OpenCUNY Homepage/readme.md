@@ -107,7 +107,7 @@ As well as additional files:
  - [X] footer.php loads
  - [X] 
  - [ ] Contact form
- - [ ] What can you do with OpenCUNY? (Yellow accordion)
+ - [X] What can you do with OpenCUNY? (Yellow accordion)
  - [ ] OpenCUNY Board page (combine board/coordinators)
  - [ ] Remove blue footer (to site-wide footer) 
 
