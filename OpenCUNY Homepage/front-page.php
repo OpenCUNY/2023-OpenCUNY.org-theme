@@ -18,7 +18,7 @@
 		<p>Since our founding by Greg Donovan in 2008, we’ve hosted OpenCUNY.org as a participatory digital community and WordPress platform for GC students. Each semester we convene conferences and informational events about open-source software and data privacy.</p>
 		<p>We’re always exploring ways to make new digital tools available to GC students that will help us to research, teach, organize, and commune.</p>
 	</div>
-	<button class="accordion green">How is OpenCUNY unique? ▾</button>
+	<button class="accordion green">Why is OpenCUNY unique? ▾</button>
 	<div class="panel lt-blue">
 		<p><em>OpenCUNY helps you keep control of your own work.</em></p>
 		<p>Data ownership and copyright are complex issues in the digital world and especially academic spaces. Because OpenCUNY.org is not hosted on school servers and does not fall under CUNY administrator’s control, OpenCUNY.org offers a unique, CUNY-affiliated, student-centered space to teach and organize.</p>
@@ -28,29 +28,30 @@
 		<p><em>Using free and open-source software is a political and ethical choice.</em></p>
 		<p>Free software is accessible and open-source software is free to study, customize, and distribute. OpenCUNY uses the open-source version of WordPress, and works to find open-source plugins and solutions whenever possible in an effort to protect the digital rights of students.</p>
 	</div>
-	<button class="accordion yellow">Who can I talk to? ▾</button>
-	<div class="panel lt-blue">
-		<p>We're participant-driven, so we try our best to respond to requests for ideas, help, themes, plugins, etc.</p>
-		<p>The quickest way to get in touch with someone is to email <a href="mailto:info@opencuny.org">info@opencuny.org</a>, but you can also email any of the coordinators individually (our email addresses are listed below).</p>
-		<p>We also hold in-person office hours in Room 5396 of the Graduate Center every Wednesday from 3:00-5:00pm.</p>
-		<h3>Coordinators</h3>
-		<h4 class="coordinator-name">Zach Muhlbauer | Coordinator for Education & Support</h4>
-		<p>Contact: <a href="mailto:zach@opencuny.org" alt="Email Zach">Zach@opencuny.org</a></p>
-		<img src="<?php echo esc_url( get_template_directory_uri() . '/images/Zach-profile.jpg' ); ?>" alt="Zach Muhlbauer profile picture" class="profile" />
-		<p>Zach is a third-year doctoral student in English Language and Literature at the Graduate Center, CUNY, where he explores the intersection of critical university studies, educational technology, and new literacy. His research foregrounds the emergent role of digital literacy in composition pedagogy and writing program administration, meanwhile advocating for data sovereignty and open infrastructure within public higher education. In addition to teaching first-year writing sections at Baruch College, Zach serves as a HASTAC Scholar (’22-24) as well as a Workshop Kit Designer & Facilitator at Queens College. A recent alum of the Interactive Technology and Pedagogy Certificate Program, he is also a recent member of the Editorial Collective of the Journal of Interactive Technology and Pedagogy.</p>
-		<h4 class="coordinator-name">Paul L. Hebert | Coordinator for Planning & Development</h4>
-		<p>Contact: <a href="mailto:paul@OpenCUNY.org" alt="Email Zach">paul@OpenCUNY.org</a></p>
-		<img src="<?php echo esc_url( get_template_directory_uri() . '/images/Paul-profile.jpg' ); ?>" alt="Paul's profile picture" class="profile" />
-		<p>Paul is a doctoral candidate in the English Program at the Graduate Center, CUNY and a Teaching Fellow at Queens College, CUNY. Paul’s research focuses on the early 19th-century Atlantic maritime literature in popular culture. His courses have included Global Literature (300-level); American Literature, Literary Theory, Literary History (200-level); and College Writing I & II (100-level).</p>
-		<h3 class="centered">Former Coordinators</h3>
-		<div class="two-columns">
-			<p><a href="http://gtdonovan.org" target="_blank" alt="Gregory Donovan's website">Gregory Donovan</a></p>
-			<p><a href="http://margaretgalvan.org" target="_blank" alt="Maggie Galvan's website">Maggie Galvan</a></p>
-			<p><a href="https://lauriehurson.info/" target="_blank" alt="Laurie Hurson's website">Laurie Hurson</a></p>
-			<p><a href="http://kristenhackett.org" target="_blank" alt="Kristen Hackett's website">Kristen Hackett</a></p>
-			<p><a href="http://christinanadler.com" target="_blank" alt="Christina Nadler 's website">Christina Nadler</a></p>
-		</div>
-	</div>
+	<button class="accordion yellow">How do I use OpenCUNY? ▾</button>
+<div class="panel lt-blue">
+  <p><em>OpenCUNY can be used to support your research, projects,  events, student organizations, and more.</em></p>
+  <p>Plus, you can create a site with OpenCUNY.org in a matter of minutes:</p>
+  <o>
+    <li><a href="https://opencuny.org/wp-login">Sign up</a> for an account and verify your GC email to confirm it.</li>
+    <li>Return here to sign in using your OpenCUNY.org credentials.</li>
+    <li>Navigate to <a href="https://opencuny.org/wp-login">Create site</a> and complete the form to add a new site to your account.</li>
+  </ul>
+  <p>See our <a href="https://opencuny.info">knowledge base</a> for further guidance on how to customize, improve, and maintain your site.</p>
+  <p><em>Have a question or feature request in mind?</em></p>
+  <p>As a community-led platform, we try our best to respond to requests for help and support as well as for themes, plugins, and other open-source solutions.</p>
+  <p>Contact us at <a href="mailto:info@opencuny.org">info@opencuny.org</a> or visit our office hours on Wednesday from 3-5pm in Room 5396.</p> 
+  <p><a href="https://opencuny.org/coordinators">Read here</a> to learn more about OpenCUNY coordinators</p>
+</div>
+
+<style>
+  .lt-blue li {
+    list-style: circle;
+    margin-left: 20px;
+    padding: 5px;
+  }
+</style>
+	
 </div>
 <?php
 	// retrieves footer.php
