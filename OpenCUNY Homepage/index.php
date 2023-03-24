@@ -72,11 +72,11 @@
 
 			<p><em>OpenCUNY is student-run and student-funded.</em></p>
 
-			<p>OpenCUNY is the only WordPress platform at the GC run by students for students. We’re funded by the DGSC, and our coordinators work with a DGSC-elected board of OpenCUNY users to develop and improve the platform annually.</p>
+			<p>OpenCUNY is the only WordPress platform at the GC run by students for students. We’re funded by DGSC and coordinators work with a DGSC-elected board of OpenCUNY users to develop and improve the platform annually.</p>
 
-			<p><em>Using free and open-source software is a political and ethical choice.</em></p>
+			<p><em>Using free and open source software is a political and ethical choice.</em></p>
 
-			<p>Free software is accessible and open-source software is free to study, customize, and distribute. OpenCUNY uses the open-source version of WordPress, and works to find open-source plugins and solutions whenever possible in an effort to protect the digital rights of students.</p>
+			<p>Free software is accessible and open source software is free to study, customize, and distribute. OpenCUNY uses the open source version of WordPress, and works to find open source plugins and solutions whenever possible in an effort to protect the digital rights of students.</p>
 
 		</div>
 
@@ -84,11 +84,9 @@
 
 		<div class="panel">
 
-			<p>We're participant-driven, so we try our best to respond to requests for ideas, help, themes, plugins, etc.</p>
+			<p>We're particpant-driven, so we try our best to respond to requests for ideas, help, themes, plugins, etc.</p>
 
 			<p>The quickest way to get in touch with someone is to email <a href="mailto:info@opencuny.org">info@opencuny.org</a>, but you can also email any of the coordinators individually (our email addresses are listed below).</p>
-			
-			<p>We also hold in-person office hours in Room 5396 at the Graduate Center, CUNY, every Wednesday from 3:00-5:00pm.</p>
 
 			<h3>Coordinators</h3>
 
