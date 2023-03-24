@@ -6,7 +6,6 @@
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   	<meta name="description" content="OpenCUNY.org landing page">
   	<meta name="author" content="http://opencuny.org">
-  	<meta name="shortcut icon" hreg="images/logo.png">
 
 	<!-- Loads the theme CSS & page title via functions.php -->
 		<?php
@@ -14,7 +13,7 @@
 		?>
   </head>
 <div class="site-banner">
-  		<h1 class="site-title">Open*CUNY</h1>
+  		<h1 class="site-title"><a href="<?php echo get_home_url(); ?>" alt="Homepage link" id="site-title">Open*CUNY</a></h1>
 </div>
 
 <body>
