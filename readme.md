@@ -13,6 +13,7 @@ We've tried to make the code and documentation as human-readable, and instructiv
 - [Quick Reference for Dashboard](#quick-reference-for-dashboard) 
 - [How the Theme Works](#how-the-theme-works)
   - [File Structure](#file-structure)
+- [OpenCUNY Style Guide](#style-guide)
   
 ## Quick Reference for Coding
 
@@ -110,8 +111,14 @@ As well as additional files:
  - [X] What can you do with OpenCUNY? (Yellow accordion)
  - [ ] OpenCUNY Board page (combine board/coordinators)
  - [ ] Remove blue footer (to site-wide footer) 
+ 
+## Style Guide
+Open-source: hyphenated
 
-## Thanks
+Serial comma: Use it. 
+
+
+## Links
 - https://youtu.be/-h7gOJbIpmo
 
 
