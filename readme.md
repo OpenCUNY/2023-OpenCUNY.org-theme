@@ -117,14 +117,10 @@ As well as additional files:
 	- Explain `<b> <strong> <em> <i>` tags
 	- Importance of `<title>` for accessibility
 	- Importance of `<img src="" alt="">` for accessibility
-	- Explain importance of viewport in header `
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-`
+	- Explain importance of viewport in header `<meta name="viewport" content="width=device-width, initial-scale=1.0">`
 	- Explain all of UTF is available (including all the emoticons and special characters)
-
 - Code Beautify/Accessibility
-	- Check all rendered template code for `<!DOCTYPE html>` and `<html lang="eng-US">` and ` and `<meta charset="UTF-8">`
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	- Check all rendered template code for `<!DOCTYPE html>` and `<html lang="eng-US">` and ` and `<meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">`
 `	- non-breaking space needed in some places? `&nbsp;`
 	- Check HTML for "" and ''
 	- Check code for lowercase attributes
