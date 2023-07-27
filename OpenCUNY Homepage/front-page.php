@@ -35,7 +35,7 @@
 		<ol>
 		 	<li><a href="https://opencuny.org/wp-login">Sign up</a> for an account and verify your GC email to confirm it.</li>
 		 	<li>Return here to sign in using your OpenCUNY.org credentials.</li>
-		 	<li>Navigate to <a href="https://opencuny.org/wp-login" >Create site</a> and complete the form to add a new site to your account.</li>
+		 	<li>Navigate to <a href="https://opencuny.org/wp-signup.php" >Create site</a> and complete the form to add a new site to your account.</li>
 		</ol>
 	  <p>See our <a href="https://opencuny.info" aria-label="Search our knowledge base">knowledge base</a> for further guidance on how to customize, improve, and maintain your site.</p>
 	  <p><em>Have a question or feature request in mind?</em></p>
