@@ -32,7 +32,7 @@
 
 	function opencuny_accordian_script() {
 		// inserts the accordian.js into the footer so accordians can be used on any page (e.g. frontpage.php)
-		wp_enqueue_script('opencuny-accordian', get_template_directory_uri() . '/accordian.js', array(), '1.0', true);
+		wp_enqueue_script('opencuny-accordian', get_template_directory_uri() . '/assets/js/accordian.js', array(), '1.0', true);
 	}
 	
 	add_action( 'wp_enqueue_scripts', 'opencuny_accordian_script');
