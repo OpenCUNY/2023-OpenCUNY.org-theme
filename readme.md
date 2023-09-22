@@ -2,7 +2,7 @@
 
 ## Project Description
 
-A WordPRess theme for OpenCUNY.org, a digital medium funded by the DGSC, The Graduate Center, CUNY.
+A WordPress theme for OpenCUNY.org, a digital medium funded by the DGSC, The Graduate Center, CUNY.
 
 We've tried to make the code and documentation as human-readable, and instructive as possible, so that others can take this code and experiment, learn, have fun, and create. 
 
