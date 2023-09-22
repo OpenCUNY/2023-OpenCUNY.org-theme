@@ -135,7 +135,7 @@ Header styles
 .site-banner {
     display: block;
     max-height: 20vhmin;
-    background-image: linear-gradient(90deg, var(--dark-blue) 25%, var(--pink) 25%, var(--pink) 50%, var(--green) 50%, #57f36e 75%, var(--yellow) 75%);
+    background-image: linear-gradient(90deg, var(--dark-blue) 25%, var(--pink) 25%, var(--pink) 50%, var(--green) 50%, var(--green) 75%, var(--yellow) 75%);
 }
 
 .site-title {
@@ -618,7 +618,7 @@ color: white;
 }
 
 #Generate {
-  background-color: #ebf2fa;
+  background-color: var(--light-blue);
   padding: 2rem;
   border-radius: 2rem;
 }
