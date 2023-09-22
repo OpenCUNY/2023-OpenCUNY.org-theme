@@ -12,7 +12,7 @@
 			<input type="submit" class="search-submit" value="Search">
 		</form>
 	</div>
-	<img class="flower-pot" src="<?php echo esc_url( get_template_directory_uri() . '/images/flower-pot.png' ); ?>" alt="Broken flower pot"></img>
+	<img class="flower-pot" src="<?php echo esc_url( get_template_directory_uri() . 'assets/images/flower-pot.png' ); ?>" alt="Broken flower pot"></img>
 </div>
 </div>
 <?php
