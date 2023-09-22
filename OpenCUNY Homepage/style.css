@@ -43,14 +43,15 @@ Roboto (so far other weights unused)
 View on Google fonts: https://fonts.google.com/share?selection.family=Bungee%20Inline%7CBungee%20Shade%7CRoboto:ital,wght@0,100;0,400;0,700;0,900;1,100;1,400;1,700;1,900
 
 -- Colors --
-Dark Blue:    #2682e9
-Light Blue:   #ebf2fa
-Pink:         #ff7c7d
-Light Pink:   #faeded
-Green:        #57f36e
-Light Green:  #ebfaed
-Yellow:       #feee75
-Light Yellow: #faf8eb
+Instead of colors, use the following variables (defined in the root). This way, changing a color in the root also changes colors throughout the theme.
+dark-blue:    #2682e9     var(--dark-blue)
+light-blue:   #ebf2fa     var(--light-blue) 
+pink:         #ff7c7d     var(--pink)
+light-pink:   #faeded     var(--light-pink)
+green:        #57f36e     var(--green)
+light-green:  #ebfaed     var(--light-green)
+yellow:       #feee75     var(--yellow)
+light-yellow: #faf8eb     var(--light-yellow)
  
 NOTE: Style sheet is (generally) organized so that global styles are the top and page-specific tweaks are at the bottom. 
 ------
@@ -62,6 +63,17 @@ Defaults & Global Styles
 
 /* Loads Google fonts: Bungee Inline, Bungee Shade, Roboto various weights and italics */
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Bungee+Shade&family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,100;1,400;1,700;1,900&display=swap');
+
+:root {
+ --dark-blue: #2682e9;
+ --light-blue: #ebf2fa;
+ --pink: #ff7c7d;
+ --light-pink: #faeded;
+ --green: #57f36e;
+ --light-green: #ebfaed;
+ --yellow: #feee75;
+ --light-yellow: #faf8eb;
+}
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -113,7 +125,7 @@ nav, .menu .nav-footer {
 
 .nav-footer a:hover{
   font-weight: 700;
-  color: #2682e9 !important;
+  color: var(--dark-blue) !important;
 }
 
 /*
@@ -123,7 +135,7 @@ Header styles
 .site-banner {
     display: block;
     max-height: 20vhmin;
-    background-image: linear-gradient(90deg, #2682e9 25%, #ff7c7d 25%, #ff7c7d 50%, #57f36e 50%, #57f36e 75%, #feee75 75%);
+    background-image: linear-gradient(90deg, var(--dark-blue) 25%, var(--pink) 25%, var(--pink) 50%, var(--green) 50%, #57f36e 75%, var(--yellow) 75%);
 }
 
 .site-title {
@@ -177,7 +189,7 @@ Frontpage styles
     font-family: 'Roboto'. sans-serif;
     max-width: 100%;
     padding: 1.5rem;
-    border: .2rem solid #2682e9;
+    border: .2rem solid var(--dark-blue);
     border-radius: 1rem;
     margin: 1.5rem;
 }
@@ -196,7 +208,7 @@ Frontpage styles
 /* Login form button colors*/
 .login-submit input[type="submit"] {
     color: white;
-    background-color: #2682e9;
+    background-color: var(--dark-blue);
 }
 
 /* Page content full screen on displays <700px wide */
@@ -256,8 +268,8 @@ Footer Styles
 footer {
     margin: 3rem auto 0;
     bottom: 0;
-    background-color: #ebf2fa;
-    border-top: .1rem solid #2682e9;
+    background-color: var(--light-blue);
+    border-top: .1rem solid var(--dark-blue);
     width: 100%;
 }
 
@@ -286,7 +298,7 @@ footer {
 
 .copyright {
   padding: 0.3em 1em;
-  background-color: #2682e9;
+  background-color: var(--dark-blue);
 }
 
 .footer-menu{
@@ -300,7 +312,7 @@ color: white;
   text-decoration: none;
 }
 .footer-menu a:hover{
-  color: #feee75 !important;
+  color: var(--yellow) !important;
 }
 
 .footer-menu a:link, .footer-menu a:visited, .footer-menu a:hover {
@@ -405,7 +417,7 @@ color: white;
 }
 
 .accordion:hover {
-    background-color: #ebf2fa; 
+    background-color: var(--light-blue); 
 }
 
 .active {
@@ -478,28 +490,28 @@ color: white;
 
 /* Background colors (used on the accordian tabs) */
 .blue {
-    background-color: #2682e9;
+    background-color: var(--dark-blue);
 }
 .lt-blue {
-    background-color: #ebf2fa;
+    background-color: var(--light-blue);
 }
 .pink {
-    background-color: #ff7c7d;
+    background-color: var(--pink);
 }
 .lt-pink {
-    background-color: #faeded;
+    background-color: var(--light-pink);
 }
 .green {
-    background-color: #57f36e;
+    background-color: var(--green);
 }
 .lt-green {
-    background-color: #ebfaed;
+    background-color: var(--light-green);
 }
 .yellow {
-    background-color: #feee75;
+    background-color: var(--yellow);
 }
 .lt-yellow {
-    background-color: #faf8eb;
+    background-color: var(--light-yellow);
 }
 
 
@@ -593,6 +605,27 @@ color: white;
     margin: -1.8rem 0 0 78vw;
     width: 15vmin;
     transform: scaleX(-1);
+}
+
+/* QR code generator Template */
+
+#qrcode {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+  padding: 1em 0;
+}
+
+#Generate {
+  background-color: #ebf2fa;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+#qr-code {
+  max-width: 90vw;
+  margin: 2rem auto;
 }
 
 
