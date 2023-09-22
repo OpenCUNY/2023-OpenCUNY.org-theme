@@ -2,7 +2,7 @@
     <div class="footer-content">
       <div class="row primary">
         <div class="column centered">
-          <a href="https://cunydsc.org"><img src="<?php echo esc_url( get_template_directory_uri() . 'assets/images/DGSC-logo.png' ); ?>" class="dgsc-logo"></a>
+          <a href="https://cunydsc.org"><img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/DGSC-logo.png' ); ?>" class="dgsc-logo"></a>
         </div>
         <div class="column about">
           <h3 class="no-marg">OpenCUNY</h3>
@@ -39,8 +39,8 @@
 <div class="footer-wrapper">
 	<div class="footer single spacing">
 		<hr/>
-		<p><img class="DGSC-logo-right small-text text-align-left" src="<?php echo esc_url( get_template_directory_uri() . 'assets/images/DGSC-logo.png' ); ?>" alt="DGSC logo"><a href="https://cunydsc.org"></img><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" class="license float-left" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>(CC) OpenCUNY, <script>document.write(new Date().getFullYear())</script> | Room 5396, The Graduate Center, CUNY | <a href="https://cunydsc.org">DGSC</a> affiliate organization | Read our <a href="https://opencuny.org/terms/">Terms of Participation</a></p>
-		<img class="DGSC-logo-center" src="<?php echo esc_url( get_template_directory_uri() . 'assets/images/DGSC-logo.png' ); ?>" alt="DGSC logo"></img>
+		<p><img class="DGSC-logo-right small-text text-align-left" src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/DGSC-logo.png' ); ?>" alt="DGSC logo"><a href="https://cunydsc.org"></img><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" class="license float-left" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>(CC) OpenCUNY, <script>document.write(new Date().getFullYear())</script> | Room 5396, The Graduate Center, CUNY | <a href="https://cunydsc.org">DGSC</a> affiliate organization | Read our <a href="https://opencuny.org/terms/">Terms of Participation</a></p>
+		<img class="DGSC-logo-center" src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/DGSC-logo.png' ); ?>" alt="DGSC logo"></img>
 	</div>
 </div>
 -->
@@ -55,7 +55,7 @@
 		<p>Read our <a href="https://opencuny.org/terms/">Terms of Participation</a></p>
 	</div>
 	<div class="footer-col large-15 single-spaced">
-		<a href="https://cunydsc.org"><img class="dgsc-logo-footer" src="<?php echo esc_url( get_template_directory_uri() . 'assets/images/DGSC-logo.png' ); ?>" alt="DGSC logo" /></a>
+		<a href="https://cunydsc.org"><img class="dgsc-logo-footer" src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/DGSC-logo.png' ); ?>" alt="DGSC logo" /></a>
 	</div>
 -->
 
