@@ -92,6 +92,7 @@ As well as additional files:
   - index.php (used to display a page or post)
   - readme.txt (this file)
   - screenshot.png (used by WordPress theme selector)
+  - qr-code.php (apply to a page/post to include a QR code generator using qrcode.js)
  - assets
   - .js (for javascripts that need to be loaded; currently used for accordion)
   - images (template-required images)
@@ -110,27 +111,26 @@ As well as additional files:
 - Resolve `<section>` or `<article>` for various parts of the templates (ex. https://www.w3schools.com/html/html_layout.asp)
 - Resolve consistency of flexbox/float layout throughout
 - Style Guide
-	- Explain how to add fonts with `<link rel="stylesheet" href="https://fonts.google...">`
-	- Explain the theme uses a single external css file, no in-line or internal CSS
-	- (Update style guide to include "" for HTML)
-	- (Update style guide to include lowercase attributes)
-	- Explain `<b> <strong> <em> <i>` tags
-	- Importance of `<title>` for accessibility
-	- Importance of `<img src="" alt="">` for accessibility
-	- Explain importance of viewport in header `<meta name="viewport" content="width=device-width, initial-scale=1.0">`
-	- Explain all of UTF is available (including all the emoticons and special characters)
+  - Explain how to add fonts with `<link rel="stylesheet" href="https://fonts.google...">`
+  - Explain the theme uses a single external css file, no in-line or internal CSS
+  - (Update style guide to include "" for HTML)
+  - (Update style guide to include lowercase attributes)
+  - Explain `<b> <strong> <em> <i>` tags
+  - Importance of `<title>` for accessibility
+  - Importance of `<img src="" alt="">` for accessibility
+  - Explain importance of viewport in header `<meta name="viewport" content="width=device-width, initial-scale=1.0">`
+  - Explain all of UTF is available (including all the emoticons and special characters)
 - Code Beautify/Accessibility
-	- Check all rendered template code for `<!DOCTYPE html>` and `<html lang="eng-US">` and ` and `<meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">`
-`	- non-breaking space needed in some places? `&nbsp;`
-	- Check HTML for "" and ''
-	- Check code for lowercase attributes
-	- Add `<title>` tags with explainer text on links especially, but also on other elements
-	- Remove XML self-closing / from elements ex. `<hr/>`
-	- Use `<abbr>` w/ title="" (ex. `<abbr title="OpenCUNY">OC</abbr>`)
-	- Use `<address>` tag for contact information in footer
-	- Check all images for `alt=""` attribute
-	- https://www.w3schools.com/html/html5_semantic_elements.asp
-
+  - Check all rendered template code for `<!DOCTYPE html>` and `<html lang="eng-US">` and ` and `<meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">`
+` - non-breaking space needed in some places? `&nbsp;`
+  - Check HTML for "" and ''
+  - Check code for lowercase attributes
+  - Add `<title>` tags with explainer text on links especially, but also on other elements
+  - Remove XML self-closing / from elements ex. `<hr/>`
+  - Use `<abbr>` w/ title="" (ex. `<abbr title="OpenCUNY">OC</abbr>`)
+  - Use `<address>` tag for contact information in footer
+  - Check all images for `alt=""` attribute
+  - https://www.w3schools.com/html/html5_semantic_elements.asp
 
 Future Development?
 - Add font awesome support w/ script in header `<script src="https://kit.fontawesome.com/...." crossorigin="anonymous></script>` and/or google/bootstrap 
@@ -141,7 +141,7 @@ Future Development?
 
 Questions?
 Why aren't we using a css framework like bootstrap or w3.css?
-	- OpenCUNY style vs. open source
+  - OpenCUNY style vs. open source
  - [ ]
  - [ ] Contact form
  
@@ -153,6 +153,3 @@ Serial comma: Use it.
 
 ## Links
 - https://youtu.be/-h7gOJbIpmo
-
-
-

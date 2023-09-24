@@ -32,7 +32,7 @@
 
 	function opencuny_accordian_script() {
 		// inserts the accordian.js into the footer so accordians can be used on any page (e.g. frontpage.php)
-		wp_enqueue_script('opencuny-accordian', get_template_directory_uri() . '/accordian.js', array(), '1.0', true);
+		wp_enqueue_script('opencuny-accordian', get_template_directory_uri() . '/assets/js/accordian.js', array(), '1.0', true);
 	}
 	
 	add_action( 'wp_enqueue_scripts', 'opencuny_accordian_script');
@@ -66,3 +66,12 @@
    }
 
 // Use this shortcode [opencuny_login] to display this login form on a page or post
+
+// This loads the QR code generator script on pages with the qr-code templaste
+function qr_code_generator() {
+  if ( is_page_template( 'qr-code.php' ) ) {
+    wp_enqueue_script( 'qr_generator_js', get_template_directory_uri() . '/assets/js/qrcode.js' );
+    wp_enqueue_script( 'qr_form_js', get_template_directory_uri() . '/assets/js/qrcode-form.js' );
+  }
+}
+add_action( 'wp_head', 'qr_code_generator' );
