@@ -92,6 +92,7 @@ As well as additional files:
   - index.php (used to display a page or post)
   - readme.txt (this file)
   - screenshot.png (used by WordPress theme selector)
+  - qr-code.php (apply to a page/post to include a QR code generator using qrcode.js)
  - assets
   - .js (for javascripts that need to be loaded; currently used for accordion)
   - images (template-required images)
@@ -130,7 +131,6 @@ As well as additional files:
   - Use `<address>` tag for contact information in footer
   - Check all images for `alt=""` attribute
   - https://www.w3schools.com/html/html5_semantic_elements.asp
-
 
 Future Development?
 - Add font awesome support w/ script in header `<script src="https://kit.fontawesome.com/...." crossorigin="anonymous></script>` and/or google/bootstrap 
