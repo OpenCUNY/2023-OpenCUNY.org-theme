@@ -4,6 +4,8 @@
 	<nav>
 		<a href="<?php echo home_url( '/wp-admin' ); ?>" title="Go to Dashboard">Dashboard</a> |
 		<a href="<?php echo home_url( '/wp-signup.php' ); ?>" title="Create new site">Create site</a> |
+		<a href="<?php echo home_url( 'https://opencuny.org/testest/qr-generator/' ); ?>" title="Create new site">Create QR</a> |
+
 		<a href="<?php echo wp_logout_url( home_url() ); ?>" title="Log out">Log out</a>
 	</nav>
 </div>

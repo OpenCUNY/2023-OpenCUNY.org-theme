@@ -66,3 +66,12 @@
    }
 
 // Use this shortcode [opencuny_login] to display this login form on a page or post
+
+// This loads the QR code generator script on pages with the qr-code templaste
+function qr_code_generator() {
+  if ( is_page_template( 'qr-code.php' ) ) {
+    wp_enqueue_script( 'qr_generator_js', get_template_directory_uri() . '/assets/js/qrcode.js' );
+    wp_enqueue_script( 'qr_form_js', get_template_directory_uri() . '/assets/js/qrcode-form.js' );
+  }
+}
+add_action( 'wp_head', 'qr_code_generator' );

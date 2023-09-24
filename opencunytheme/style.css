@@ -1,7 +1,7 @@
 /*
 Theme Name: OpenCUNY.org
 Text Domain: opencuny-home
-Version: 1.2.1
+Version: 1.2.11
 Description: OpenCUNY.org's homemade, simple, responsive theme, designed in 2023. 
 Author: OpenCUNY
 Author URI: https://opencuny.org/
@@ -621,6 +621,7 @@ color: white;
   background-color: var(--light-blue);
   padding: 2rem;
   border-radius: 2rem;
+  margin-top: 2em;
 }
 
 #qr-code {
