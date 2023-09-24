@@ -33,9 +33,9 @@
 	  <p><em>OpenCUNY can be used to support your research, projects, events, organizations, and more.</em></p>
 	  <p>Plus, you can create a site with OpenCUNY.org in a matter of minutes:</p>
 		<ol>
-		 	<li><a href="https://opencuny.org/wp-signup.php">Sign up</a> for an account and verify your GC email to confirm it.</li>
+		 	<li><a href="<?php echo wp_registration_url(); ?>">Sign up</a> for an account and verify your GC email to confirm it.</li>
 		 	<li>Return here to sign in using your OpenCUNY.org credentials.</li>
-		 	<li>Navigate to <a href="http://opencuny.org/wp-login.php?action=register" >Create site</a> and complete the form to add a new site to your account.</li>
+		 	<li>Navigate to <a href="<?php echo wp_registration_url(); ?>" >Create site</a> and complete the form to add a new site to your account.</li>
 		</ol>
 	  <p>See our <a href="https://opencuny.info" aria-label="Search our knowledge base">knowledge base</a> for further guidance on how to customize, improve, and maintain your site.</p>
 	  <p><em>Have a question or feature request in mind?</em></p>
