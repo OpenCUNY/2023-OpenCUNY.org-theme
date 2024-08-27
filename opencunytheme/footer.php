@@ -2,7 +2,7 @@
     <div class="footer-content">
       <div class="row primary">
         <div class="column centered">
-          <a href="https://cunydsc.org"><img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/DGSC-logo.png' ); ?>" class="dgsc-logo"></a>
+          <a href="https://cunydgsc.org"><img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/DGSC-logo.png' ); ?>" class="dgsc-logo"></a>
         </div>
         <div class="column about">
           <h3 class="no-marg">OpenCUNY</h3>
