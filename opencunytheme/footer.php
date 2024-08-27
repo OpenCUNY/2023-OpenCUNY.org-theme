@@ -28,7 +28,7 @@
         <nav class="single-spaced small-text">
           <a class="em" href="https://opencuny.org/">OpenCUNY</a> » 
           <a href="https://opencuny.org/terms">terms</a> |
-          Sponsored by <a href="https://cunydsc.org/">Doctoral and Graduate Students' Council (DGSC)</a>
+          Sponsored by <a href="https://cunydgsc.org/">Doctoral and Graduate Students' Council (DGSC)</a>
         </nav>
       </div>
     </div>
